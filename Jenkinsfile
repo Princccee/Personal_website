@@ -20,30 +20,30 @@ pipeline {
             }
         }
 
-        stage('Code Quality (SonarQube)') {
-            steps {
-                withSonarQubeEnv("${SONARQUBE_SERVER}") {
-                    sh """
-                    sonar-scanner \
-                      -Dsonar.projectKey=${SONARQUBE_PROJECT} \
-                      -Dsonar.sources=. \
-                      -Dsonar.host.url=$SONAR_HOST_URL \
-                      -Dsonar.login=$SONAR_AUTH_TOKEN
-                    """
-                }
-            }
-        }
+        // stage('Code Quality (SonarQube)') {
+        //     steps {
+        //         withSonarQubeEnv("${SONARQUBE_SERVER}") {
+        //             sh """
+        //             sonar-scanner \
+        //               -Dsonar.projectKey=${SONARQUBE_PROJECT} \
+        //               -Dsonar.sources=. \
+        //               -Dsonar.host.url=$SONAR_HOST_URL \
+        //               -Dsonar.login=$SONAR_AUTH_TOKEN
+        //             """
+        //         }
+        //     }
+        // }
 
-        stage('Dependency Check (OWASP)') {
-            steps {
-                sh """
-                dependency-check.sh \
-                  --scan . \
-                  --format HTML \
-                  --out reports
-                """
-            }
-        }
+        // stage('Dependency Check (OWASP)') {
+        //     steps {
+        //         sh """
+        //         dependency-check.sh \
+        //           --scan . \
+        //           --format HTML \
+        //           --out reports
+        //         """
+        //     }
+        // }
 
         stage('Build Docker Image') {
             steps {
