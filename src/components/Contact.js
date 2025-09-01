@@ -4,7 +4,7 @@ import "./Contact.css";
 // Create a context for images
 const icon = require.context("./images/icon", false, /\.(png|jpe?g|svg)$/);
 
-const email = "youremail@example.com"; // Change this to your email
+const email = "princceework@example.com"; // Change this to your email
 
 const Contact = () => {
   return (

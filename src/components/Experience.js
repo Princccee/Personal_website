@@ -2,23 +2,23 @@ import React from 'react';
 
 const experience = [
   {
-    position: 'Software Developer',
-    company: 'Awesome Company',
-    duration: 'Jan 2023 - Present',
-    detail: 'Created Full-Stack applications using React.js, Node.js, and Express.js.',
+    position: 'Junior Software Developer',
+    company: 'Apra Labs',
+    duration: 'Jan 2026 - Present',
+    detail: 'Yet to join.',
   },
   {
-    position: 'QA Engineer',
-    company: 'Second Awesome Company',
-    duration: 'Oct 2021 - Dec 2022',
+    position: 'genAI Developer Intern',
+    company: 'Fixit.ai',
+    duration: 'Jan 2025 - Mar 2025',
     detail: 'Wrote test cases and performed manual testing for a web application.',
   },
-  {
-    position: 'Software Developer Intern',
-    company: 'Thrid Awesome Company',
-    duration: 'Feb 2019 - Jul 2021',
-    detail: 'Created APIs using Node.js and Express.js for a web application.',
-  }
+  // {
+  //   position: 'Software Developer Intern',
+  //   company: 'Thrid Awesome Company',
+  //   duration: 'Feb 2019 - Jul 2021',
+  //   detail: 'Created APIs using Node.js and Express.js for a web application.',
+  // }
 ];
 
 const Experience = () => {

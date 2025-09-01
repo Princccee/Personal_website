@@ -31,11 +31,11 @@ const Home = () => (
             Hi, I'm Prince...!
           </h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            I'm a final year Computer Science student at IIIT, Dharwad. I'm passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations.
           </p>
           
-          <Connect linkedin="http://www.linkedin.com" github="https://github.com" contact="contact"
-          resume="https://docs.google.com/document/d/1EujuYFWxVXZ2PUaJ2uizvK5raMoMsz1KMys-UYpUSk4/edit"/>
+          <Connect linkedin="https://www.linkedin.com/in/prince-kumar-127903288/" github="https://github.com/Princccee" contact="9123174099"
+          resume="https://drive.google.com/file/d/1bF8MxWWgRwvl1BaN9tdXDcZb_GGsKdvj/view?usp=sharing"/>
           
         </div>
       </div>

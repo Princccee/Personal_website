@@ -8,19 +8,29 @@ const icon = require.context('./images/icon', false, /\.(png|jpe?g|svg)$/);
 
 const projects = [
   {
-    title: 'Personal Website Template',
-    technologies: ['React.js', 'HTML', 'CSS'],
-    summary: 'THIS PROJECT. A personal website template built using React.js, HTML, and CSS.',
-    screenshot: 'personal_website_template_ss.png',
-    github: 'https://github.com/KoustubhSahu/Personal-Website-Template',
-    liveURL: 'https://koustubhsahu.github.io/Personal-Website-Template/',
+    title: 'QuickPort – Door-to-Door Delivery Application ',
+    technologies: ['SpringBoot', 'JWT', 'REST', 'websockets', 'MapBox', 'Razorpay', 'mySql', 'Docker'],
+    summary: '',
+    screenshot: 'door-to-door-delivery-service.jpg',
+    github: 'https://github.com/Princccee/QuickPort',
+    // liveURL: 'https://koustubhsahu.github.io/Personal-Website-Template/',
   },
   {
-    title: "QR Code Generator",
-    technologies: ['Python', 'Docker'],
-    summary: 'Developed a QR code generator using Python and Docker',
-    github: 'https://github.com/KoustubhSahu/qrprog',
-  }
+    title: 'Smart-doc AI',
+    technologies: ['Django', 'Docker', 'Gemini', 'NLP', 'spaCy', 'Git', 'HTML'],
+    summary: '',
+    screenshot: 'smart-doc-ai.png',
+    github: 'https://github.com/Princccee/Smart-Doc-AI',
+    // liveURL: 'https://koustubhsahu.github.io/Personal-Website-Template/',
+  },
+  {
+    title: 'AI-Research Agent System',
+    technologies: ['Django', 'Docker', 'Gemini', 'Google custom search', 'Huggingface', 'Kaggle'],
+    summary: '',
+    screenshot: 'ai-research-agent.jpg',
+    github: 'https://github.com/Princccee/Research_agent',
+    // liveURL: 'https://koustubhsahu.github.io/Personal-Website-Template/',
+  },
   
 ];
 
