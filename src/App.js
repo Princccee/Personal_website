@@ -31,7 +31,7 @@ const Home = () => (
             Hi, I'm Prince...!
           </h1>
           <p>
-            I'm a final year Computer Science student at IIIT, Dharwad. I'm passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations.
+            I’m a final-year B.Tech student in Data Science and AI at IIIT Dharwad, passionate about developing intelligent and scalable software solutions. My experience spans AI/ML, backend systems, and full-stack applications, where I’ve built projects ranging from real-time delivery platforms to NLP-powered automation tools. I enjoy solving complex problems and creating technology that makes a real-world impact.
           </p>
           
           <Connect linkedin="https://www.linkedin.com/in/prince-kumar-127903288/" github="https://github.com/Princccee" contact="9123174099"

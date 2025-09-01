@@ -31,7 +31,7 @@ const Contact = () => {
             <form
               className="contact-form"
               method="POST"
-              action="your-formspree-endpoint"
+              action="https://formspree.io/f/mblakpky"
             >
               <div className="form-group">
                 <label htmlFor="name">Name:</label>
@@ -59,7 +59,7 @@ const Contact = () => {
         <div className="map-container">
           {/* Replace this iframe with your Google Maps embed code. */}
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1547017.3208094544!2d-74.88767352569693!3d40.77262035228985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c286d6e07696fb%3A0xca34053f4678c888!2sNew%20York%20Metropolitan%20Area!5e0!3m2!1sen!2sus!4v1722443759323!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4202.29406731576!2d75.02419017543313!3d15.393973757160374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d3a4bc7f5c91%3A0xf0fc456099430c57!2sIndian%20Institute%20of%20Information%20Technology%20(IIIT)%2C%20Dharwad!5e1!3m2!1sen!2sin!4v1756747758896!5m2!1sen!2sin"
             width="600"
             height="450"
             style={{ border: 0 }}

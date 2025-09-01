@@ -31,6 +31,31 @@ const projects = [
     github: 'https://github.com/Princccee/Research_agent',
     // liveURL: 'https://koustubhsahu.github.io/Personal-Website-Template/',
   },
+
+  // {
+  //   title: 'AI-Research Agent System',
+  //   technologies: ['Django', 'Docker', 'Gemini', 'Google custom search', 'Huggingface', 'Kaggle'],
+  //   summary: '',
+  //   screenshot: 'ai-research-agent.jpg',
+  //   github: 'https://github.com/Princccee/Research_agent',
+  //   // liveURL: 'https://koustubhsahu.github.io/Personal-Website-Template/',
+  // },
+  // {
+  //   title: 'AI-Research Agent System',
+  //   technologies: ['Django', 'Docker', 'Gemini', 'Google custom search', 'Huggingface', 'Kaggle'],
+  //   summary: '',
+  //   screenshot: 'ai-research-agent.jpg',
+  //   github: 'https://github.com/Princccee/Research_agent',
+  //   // liveURL: 'https://koustubhsahu.github.io/Personal-Website-Template/',
+  // },
+  // {
+  //   title: 'AI-Research Agent System',
+  //   technologies: ['Django', 'Docker', 'Gemini', 'Google custom search', 'Huggingface', 'Kaggle'],
+  //   summary: '',
+  //   screenshot: 'ai-research-agent.jpg',
+  //   github: 'https://github.com/Princccee/Research_agent',
+  //   // liveURL: 'https://koustubhsahu.github.io/Personal-Website-Template/',
+  // },
   
 ];
 
